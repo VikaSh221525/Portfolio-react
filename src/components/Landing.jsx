@@ -5,10 +5,10 @@ import RotatingText from './RotatingText'
 
 const Landing = () => {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed="-0.8" className='w-full h-screen bg-zinc-900 pt-1 '>
+        <div data-scroll data-scroll-section data-scroll-speed="-0.8" className='w-full min-h-screen bg-zinc-900 pt-1 '>
             <div className="textstructure px-4 sm:px-8 lg:px-20 mt-20 sm:mt-28 lg:mt-40 flex flex-col -space-y-2 sm:-space-y-3 lg:-space-y-4">
                 <div className="masker overflow-hidden">
-                    <h1 className='text-4xl sm:text-6xl lg:text-7xl xl:text-9xl tracking-tighter font-medium leading-none'>I'M VIKASH </h1>
+                    <h1 className='text-4xl sm:text-6xl lg:text-7xl xl:text-9xl tracking-tighter font-medium leading-none '>I'M VIKASH </h1>
                 </div>
                 <div className="masker flex items-baseline overflow-hidden">
                     <motion.div initial={{ width: 0 }} animate={{ width: "auto" }} transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
@@ -33,9 +33,9 @@ const Landing = () => {
                     />
                 </div>
             </div>
-            <div className='line border-t border-zinc-600 mt-10 sm:mt-16 lg:mt-32 mb-5 sm:mb-6 lg:mb-8'></div>
+            <div className='line border-t border-zinc-600 mt-10 sm:mt-16 lg:mt-15 mb-5 sm:mb-6 lg:mb-3'></div>
 
-            <div className='shortdetail px-4 sm:px-8  lg:px-20 mt-6 sm:mt-8 lg:mt-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-6 text-base sm:text-lg'>
+            <div className='shortdetail px-4 sm:px-8 lg:px-20 mt-4 sm:mt-6 md:mt-8 md:pb-6 lg:pb-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-6 text-base sm:text-lg'>
                 <p>For public and private companies</p>
                 <p>From the first pitch to IPO</p>
                 <div className='startproject space-x-3 group '>

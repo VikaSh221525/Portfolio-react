@@ -3,21 +3,29 @@ import { motion } from "motion/react"
 
 const Marquee = () => {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed="0.1"  className='w-full py-20 bg-[#004d43] rounded-t-xl'>
-            <div className="border-b-2 border-t-2 border-white flex whitespace-nowrap overflow-hidden">
+        <div data-scroll data-scroll-section data-scroll-speed="0.1" className="w-full py-25 bg-[#004d43] rounded-t-xl">
+            <div className="relative border-y-2 border-white overflow-hidden">
                 <motion.div
-                    className="flex"
+                    className="flex whitespace-nowrap"
                     initial={{ x: 0 }}
-                    animate={{ x: "-33.3333%" }}
-                    transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
-                    style={{ width: "300%" }}
+                    animate={{ x: "-50%" }}
+                    transition={{
+                        repeat: Infinity,
+                        repeatType: "loop",
+                        ease: "linear",
+                        duration: 25,
+                    }}
+                    style={{ width: "200%" }}
                 >
-                    <h1 className="OCHI text-[15rem] font-bold leading-none pr-10 tracking-tighter min-w-max">WE ARE OCHI</h1>
-                    <h1 className="text-[15rem] font-bold leading-none tracking-tighter pr-10 min-w-max">WE ARE OCHI</h1>
-                    <h1 className="text-[15rem] font-bold leading-none tracking-tighter pr-10 min-w-max">WE ARE OCHI</h1>
+                    {/* First set */}
+                    <h1 className="text-[18rem] bebas-neue-regular leading-none tracking-tight px-10 min-w-max text-white">
+                        CREATIVE PASSIONATE HARDWORKING
+                    </h1>
+                    <h1 className="text-[18rem] bebas-neue-regular leading-none tracking-tight px-10 min-w-max text-white">
+                        CREATIVE PASSIONATE HARDWORKING
+                    </h1>
                 </motion.div>
             </div>
-
         </div>
     )
 }

@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 
 const About = () => {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed="-0.1" className='w-full bg-[#cdea68] rounded-2xl'>
+        <div data-scroll data-scroll-section data-scroll-speed="-0.2.5" className='w-full bg-[#cdea68] rounded-2xl'>
             <div className='py-20 px-15 '>
                 <h1 className='text-black text-6xl w-[88%]'>Ochi is a strategic presentation agency for forward-thinking businesses that need to <span className='underline'>raise funds, sell prod­ucts, ex­plain com­plex ideas </span> and <span className='underline'>hire great peo­ple.</span> </h1>
             </div>

@@ -15,12 +15,12 @@ const App = () => {
     <div className='w-full min-h-screen text-white bg-zinc-900'>
       <Navbar />
       <Landing />
-      {/* <Marquee/>
+      <Marquee/>
       <About/>
-      <Eyes/>
-      <FeaturedProject/>
-      <Cards/>
-      <Footer/> */}
+      {/* <Eyes/> */}
+      {/* <FeaturedProject/> */}
+      {/* <Cards/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
