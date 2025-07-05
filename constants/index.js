@@ -1,19 +1,15 @@
 const Navlinks = [
     {
-        id:'Services',
-        title:'Services',
-    },
-    {
-        id:'Our Work',
-        title: 'Our Work',
-    },
-    {
-        id:'About',
+        id:'About', 
         title:'About',
     },
     {
-        id: 'Insights',
-        title: 'Insights',
+        id:'Our Work',
+        title: 'My Work',
+    },
+    {
+        id:'Resume',
+        title: 'Resume',
     },
     {
         id:'Contact',

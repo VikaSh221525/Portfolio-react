@@ -14,13 +14,13 @@ const App = () => {
   return (
     <div className='w-full min-h-screen text-white bg-zinc-900'>
       <Navbar />
-      <Landing />
-      <Marquee/>
+      {/* <Landing /> */}
+      {/* <Marquee/>
       <About/>
       <Eyes/>
       <FeaturedProject/>
       <Cards/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
